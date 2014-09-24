@@ -3,7 +3,6 @@
 	<name>CameraOverlay</name>
 	<comment></comment>
 	<projects>
-		<project>appcompat_v7</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
