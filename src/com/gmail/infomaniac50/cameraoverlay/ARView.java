@@ -13,13 +13,13 @@ public class ARView extends SurfaceView implements
 		SurfaceHolder.Callback {
 	private Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
 	private SurfaceHolder surfaceHolder;
-	ARItemList viewItems;
+	Vector<ARItemModel> viewItems;
 	
-	public ARItemList getViewItems() {
+	public Vector<ARItemModel> getViewItems() {
 		return viewItems;
 	}
 
-	public void setViewItems(ARItemList viewItems) {
+	public void setViewItems(Vector<ARItemModel> viewItems) {
 		this.viewItems = viewItems;
 	}
 
